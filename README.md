@@ -1,1 +1,6 @@
 # Twitter_exe_1
+This exercise is designed to help Twitter investigate different types of structures. The user needs to choose between a rectangle or a triangle, and then enter the parameters of their choice - the height and length of the shape. Then, if they chose a rectangle, the perimeter or area of the rectangle will be displayed according to the parameters they entered. If they chose a triangle, they will need to choose between two options: 1) calculate the perimeter of the triangle, or 2) print the triangle. The program will only close when the user enters the number 3, indicating an exit.
+
+The exercise is implemented through three directories containing files accordingly: one directory containing all the applications (classes), another directory containing all the functionality that the classes need according to adapted names, and a third directory containing all the tests on the functions according to adapted names.
+
+Initially, the menu displays three options for the user by executing the corresponding function from the Menu class, as long as the user has not selected the third option - exit. Then, based on the user's choice, the function from the corresponding class of their choice is activated (either the Rectangular class or the Triangular class).
